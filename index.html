@@ -50,7 +50,7 @@
         document.body.appendChild(renderer.domElement);
 
         let loader = new THREE.GLTFLoader();
-        loader.load('product1.glb', function(gltf){
+        loader.load('product2.gltf', function(gltf){
           car = gltf.scene.children[0];
           car.scale.set(0.5,0.5,0.5);
           scene.add(gltf.scene);
